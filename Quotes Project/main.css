@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #e1f5fe;
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 0 0 80%;
+}
+
+#quoteBtn{
+    border: none;
+    color: #ffff;
+    background: #afc2cb;
+
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#quoteBtn:hover{
+    color: #81b9bf;
+}
+
+blockquote{
+    background: #bbdefb;
+    border-left: 10px solid #89abc6;
+
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+
+#author{
+    color: #89abc6;
+}
+
+
